@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 25vh;
+    background-color: white
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 25vh;
+    background-color: white
+}
+
+.container-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 25vh;
+    background-color: white
+}
+
+.img-logo {
+    display: flex;
+    width: 330px;
+    height: 330px;
+    padding-bottom: 50px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 90px;
+    text-decoration: none;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #7e7e7d    
+}
+
+.bar a:hover {
+    color: #e10e49;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.buttons a {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #e10e49;
+}
+
+.register {
+    border: 3px solid #e10e49;
+    border-radius: 10px;
+}
+
+.login {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+a.login{
+    color: #7e7e7d;
+}
+
+.img-login {
+    display: flex;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.slider{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+    width: 100%
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
